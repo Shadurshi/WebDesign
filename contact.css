@@ -1,0 +1,47 @@
+#A{
+text-align:center;
+font-size:30px;
+}
+
+#nav{
+	background-color:grey;
+	padding:15px;
+}
+
+#nav1{
+	font-size:25px;
+	padding-left:20px;
+	
+}
+
+.footer{
+	background-color:grey;
+	text-align:center;
+	
+}
+
+#A{
+	
+	width:100%;
+}
+
+.B{
+	width:33.33%;
+	float:left;
+	
+}
+
+
+.D{
+	
+	width:33.33%;
+	float:right;
+	
+	
+}
+.C
+{
+	width:33.33%
+	margin:0 auto;
+}
+

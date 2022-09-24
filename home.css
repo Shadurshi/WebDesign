@@ -1,0 +1,13 @@
+#d{
+text-align:center;
+color:white;
+font-size:50px;
+padding-top:300px;
+}
+
+body{
+
+	background-image:url("images.jpg");
+	
+	background-blend-mode:darken;
+}

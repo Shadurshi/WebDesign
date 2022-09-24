@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url(fonts/Poppins-Regular.ttf);
+	
+}
+
+@font-face {
+	font-family: "Poppins-Bold";
+	src: url(fonts/Poppins-Bold.ttf);
+	
+}
+
+* {
+	font-family: "Poppins-Regular";
+}
+
+body{
+	background-color:black;
+	color:white;
+}
+
+.imageContainer {
+	width:50%;
+}
+
+.aboutUs {
+	color:#03c04A
+}
+
+.Container {
+	display:flex;
+	flex-direction:row;
+}
+
+.companyNews {
+	width:40%;
+}
+
+.heading3 {
+	color: #ff615d;
+}
+
+.date {
+	color:#03c04A
+}
+
+#head {
+	color:white;
+	text-align:center;
+	font-size:30px;
+	
+}
+
+.navbarContainer{
+	margin-bottom:30px;
+	
+	
+	
+}
+.navbarStyle {
+	background-color:white;
+	margin-bottom:30px;
+	font-family:Poppins-bold;
+	font-size: 25px;
+	margin-right:10px;
+	
+
+}
+
+.welcomeContent {
+	width:47%;
+}
+
+
+#A{
+text-align:center;
+font-size:30px;
+}
+
+
+
+.footer{
+	background-color:grey;
+	text-align:center;
+	
+}
