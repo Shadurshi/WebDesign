@@ -34,6 +34,7 @@ body{
 
 .companyNews {
 	width:40%;
+	margin-left: 15px;
 }
 
 .heading3 {
@@ -58,11 +59,12 @@ body{
 	
 }
 .navbarStyle {
-	background-color:white;
+	/* background-color:white; */
 	margin-bottom:30px;
 	font-family:Poppins-bold;
 	font-size: 25px;
 	margin-right:10px;
+	color: #5d8bff;
 	
 
 }
@@ -72,15 +74,11 @@ body{
 }
 
 
-#A{
-text-align:center;
-font-size:30px;
-}
-
-
 
 .footer{
-	background-color:grey;
+	background-color:white;
 	text-align:center;
+	color: #ff615d;
+	font-weight: 500;
 	
 }

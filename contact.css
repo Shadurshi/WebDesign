@@ -1,3 +1,101 @@
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url(fonts/Poppins-Regular.ttf);
+	
+}
+
+@font-face {
+	font-family: "Poppins-Bold";
+	src: url(fonts/Poppins-Bold.ttf);
+	
+}
+
+.contactContainer{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+
+.companyDetails{
+	width: 40%;
+	background-color:#f96161;
+	align-items: center;
+	text-align: center;
+	color: black;
+	border-radius: 10px;
+	font-size: large;
+
+}
+
+.additionalInfo{
+	color: #f96161;
+}
+
+
+* {
+	font-family: "Poppins-Regular";
+}
+
+
+.navbarContainer{
+	margin-bottom:30px;
+	
+	
+	
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+.navbarStyle {
+	/* background-color:white; */
+	margin-bottom:30px;
+	font-family:Poppins-bold;
+	font-size: 25px;
+	margin-right:10px;
+	color: #5d8bff;
+	
+
+}
+
+.buttonSubmit {
+	background-color: #03c04A;
+	color: white;
+	font-size: medium;
+	border-radius: 5%;
+	margin-top: 10px;
+}
+/* .upperPart{
+	background-color: black;
+	margin: 0%;
+	padding: 0%;
+} */
+
+.imageContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: black;
+	
+}
+
+.imageContact{
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+.profileInfo{
+	color:#f96161;
+}
+
+
+
+
 #A{
 text-align:center;
 font-size:30px;
