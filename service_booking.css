@@ -78,3 +78,21 @@ dis{
 	margin-top: 20px;
 	margin-left: 20px;
 }
+
+.buttonContainer {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 10%;
+
+	
+}
+
+.submitBtn, .resetBtn {
+	background-color: #61f975;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
