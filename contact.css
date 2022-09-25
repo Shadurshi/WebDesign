@@ -29,6 +29,10 @@
 
 }
 
+.inputLabel {
+	background-color: #a4dded;
+}
+
 .additionalInfo{
 	color: #f96161;
 }
@@ -62,12 +66,17 @@ body {
 }
 
 .buttonSubmit {
-	background-color: #03c04A;
-	color: white;
+	background-color: limegreen;
+	color: black;
 	font-size: medium;
 	border-radius: 5%;
 	margin-top: 10px;
 }
+
+.buttonSubmit:hover {
+	background-color: green;
+	color: white;
+  }
 /* .upperPart{
 	background-color: black;
 	margin: 0%;
