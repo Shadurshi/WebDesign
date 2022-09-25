@@ -38,7 +38,8 @@ h1{
 }
 
 body{
-	background-color:black;
+	/* background-color:black; */
+	background-color: white;
 }
 
 label{
@@ -69,7 +70,7 @@ dis{
 .buttonContainer {
 	display: flex;
 	flex-direction: row-reverse;
-	margin-right: 10%;
+	margin-right: 78%;
 
 	
 }
@@ -79,9 +80,9 @@ dis{
 	color: black;
 	border: none;
 	border-radius: 5px;
-	padding: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
 }
 
 .resetBtn{
@@ -89,7 +90,7 @@ dis{
 	color: white;
 	border: none;
 	border-radius: 5px;
-	padding: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
 }

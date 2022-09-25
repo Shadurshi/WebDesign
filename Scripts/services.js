@@ -39,24 +39,25 @@
 // }
 
 function validate() {
-    alert("VAL")
-    if(document.ownerDetailsForm.phoneInput.value.length<10){
-        document.getElementById("phoneInput").innerHTML=" Enter a Valid number";
-        document.ownerDetailsForm.phoneInput.foucs();
+    alert("VAL");
+    var phoneInput = document.getElementById("phoneInput");
+    if(phoneInput.value.length<10){
+        document.getElementById("errorPhone").innerHTML=" Enter a Valid number";
+        document.ownerDetailsForm.phoneInput.focus();
         return false;
     }
 }
 
 
 function valEmail(){
-    const emailInput = document.ownerDetailsForm.emailInput.value;
-    alert("TEST")
-    if (emailInput.indexof("@")<=0) {
-        document.getElementById("emailInput").innerHTML = "Enter a valid Email";
-        alert("fail")
-        return false;
+    var emailInput = document.getElementById("emailInput").value;
+    if (emailInput.indexOf("@") <= 0) {
+        document.getElementById("errorEmail").innerHTML = "Enter a valid Email";
+        // return false;
     }
-    validate();
+    alert("GAIN");
+    // validate();
+    // return true;
 }
 
 
