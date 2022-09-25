@@ -20,15 +20,6 @@
 	font-size: 30px;
 }
 
-.inputLabel {
-	background-color: lightblue;
-}
-
-submitBtn{
-	hover: #03c04A;
-}
-
-
 
 h1{
 	text-align:center;
@@ -36,10 +27,6 @@ h1{
 	color: #f96161;
 	font-weight: bold;
 	
-}
-#B{
-	color:blue;
-	font-size:20px;
 }
 
 .footer{
