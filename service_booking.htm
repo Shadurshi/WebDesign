@@ -7,106 +7,111 @@
   <title>Service Booking</title>
   <link rel="stylesheet" href="service_booking.css">
   <script  src="Scripts/services.js"> </script>
+  
 
 </head>
 <body>
 
   
 
-<h1> Online Service Booking Form</h1>
+    <h1> Online Service Booking Form</h1>
 
-<div>
-  <form id="vehicleDetails">
-      <fieldset>
-        <legend class="titleForm">Vehicle Details</legend>
-        <label for="vehicleMode" id="vehicleMode" >Vehicle Model : </label>
-        <input type="text" id="vehicleModeInput" name="vehicleMode"><br><br>
+    <div>
+      <form id="vehicleDetails">
+          <fieldset>
+            <legend class="titleForm">Vehicle Details</legend>
+            <label for="vehicleMode" id="vehicleMode" >Vehicle Model : </label>
+            <input type="text" id="vehicleModeInput" name="vehicleMode"><br><br>
 
-        <label for="vehNo" id="vehNo" >Vehicle No </label>
-        <input type="text" id="vehNoInput" name="id2"><br><br>
+            <label for="vehNo" id="vehNo" >Vehicle No </label>
+            <input type="text" id="vehNoInput" name="id2"><br><br>
 
-        <label for="ManuYear" id="ManuYear" >Manufactured Year</label>
-        <input list="browsers" name="ManuYear" id="ManuYearInput">
-          <datalist id="browsers">
-            <option value="2015">
-            <option value="2016">
-            <option value="2017">
-            <option value="2018">
-            <option value="2019">
-            <option value="2020">
-            <option value="2021">
-            <option value="2022">
-          </datalist><br><br>
-        
-        <label >Preferred branch:</label>  
-          <input type="radio" id="Jaffna" value="Jaffna"  name="Jaffna" checked> <dis>Jaffna</dis>
-
-          <input type="radio" id="Colombo" value="Colombo" name="Colombo"> <dis>Colombo </dis>
-
-          <input type="radio" id="Ratnapura" value="Ratnapura"  name="Ratnapura"> <dis>Ratnapura </dis>
-
-          <input type="radio" id="Anurathapura" value="Anurathapura"  name="Anurathapura"><dis> Anupradhapura</dis> <br><br>
+            <label for="ManuYear" id="ManuYear" >Manufactured Year</label>
+            <input list="browsers" name="ManuYear" id="ManuYearInput">
+              <datalist id="browsers">
+                <option value="2015">
+                <option value="2016">
+                <option value="2017">
+                <option value="2018">
+                <option value="2019">
+                <option value="2020">
+                <option value="2021">
+                <option value="2022">
+              </datalist><br><br>
+            
+            <label >Preferred branch:</label>  
+              <input type="radio" name="District" value="Jaffna" checked> <dis>Jaffna</dis>
+              <input type="radio" name="District" value="Colombo"> <dis>Colombo </dis>
+              <input type="radio" name="District" value="Ratnapura"> <dis>Ratnapura </dis>
+              <input type="radio" name="District" value="Anurathapura"><dis> Anupradhapura</dis> <br><br>
 
 
 
-        <label for="prefeDate" name="prefDate" id="prefDate">preferred date and time</label>
-          <input type="date" id="preDateInput" name="id8"> <input type="time" id="preDateTime" name="preDateTime"><br><br>
+            <label for="prefeDate" name="prefDate" id="prefDate">preferred date and time</label>
+              <input type="date" id="preDateInput" name="id8"> <input type="time" id="preDateTime" name="preDateTime"><br><br>
 
 
-        <label for="msg" id="msg">message</label>
-          <textarea id="msgInput" name="msgInput">
-          </textarea>
+            <label for="msg" id="msg">message</label>
+              <textarea id="msgInput" name="msgInput">
+              </textarea>
+              </fieldset>
+      </form>
+    </div>
+    <br><br><br>
+    <div class="formContainer">
+      <form id="ownerDetailsForm" method="GET">
+          <fieldset>
+              <legend class="titleForm">Owner Details</legend>
+                <label id="nameText" for="name" >Name: </label>
+                <input  class="inputLabel" type="text" id="nameField" name="id10" maxlength="50"><br><br>
+                <label name ="email "for="email" >Email: </label>
+                <input class="inputLabel" type="email" id="emailInput" name="emailInput"><br><br>
+                <label for="phone" >Phone Number: </label>
+                <input class="inputLabel" type="tel" id="phoneInput" name="phoneInput"><br><br>
+      
+            <div class="buttonContainer">
+              <button class="resetBtn" onclick="reset()" > Reset </button>
+              <button class="submitBtn" type="submit" onclick="valEmail()"> submit</button>
+
+            </div>
+      
           </fieldset>
+      </form>
+
+    </div>
+
+
+    <div class="backContainer">
+      <a class="back" href="About_us.htm">Back</a><br><br>
+    </div>
+
+
+    <div class="footer">
+      <h3> Copyright2022 &copy; ROBIN MOTORS(PVT)LTD</h3>
+    </div>
+
+    <!-- <div id="error">
+
+      <form id="ownerDetailsForm"  method="GET">
+        <label for="name"> Name </label>
+        <input id="name" name="name" type="text">
+      
+        <label for="password"> Password </label>
+        <input id="password" name="password" type="password">
+      
+        <button type="submit"> Submit</button>
+      
+        
+      </form>
+    </div>
+    -->
+
+
+    <form>
+      <p> What is your answer to the question? </p>
+      
+      <button type="button">Submit!</button>
   </form>
-</div>
-<br><br><br>
-<div class="formContainer">
-  <form id="ownerDetailsForm" method="GET">
-      <fieldset>
-          <legend class="titleForm">Owner Details</legend>
-            <label id="nameText" for="name" >Name: </label>
-            <input  class="inputLabel" type="text" id="nameField" name="id10" maxlength="50"><br><br>
-            <label name ="email "for="email" >Email: </label>
-            <input class="inputLabel" type="email" id="emailInput" name="emailInput"><br><br>
-            <label for="phone" >Phone Number: </label>
-            <input class="inputLabel" type="tel" id="phoneInput" name="phoneInput"><br><br>
-  
-        <div class="buttonContainer">
-          <button class="submitBtn" type="submit" onclick="valEmail()"> submit</button>
-          <button class="resetBtn" onclick="reset()" > Reset </button>
-
-        </div>
-  
-      </fieldset>
-  </form>
-
-</div>
-
-
-<div class="backContainer">
-  <a class="back" href="About_us.htm">Back</a><br><br>
-</div>
-
-
-<div class="footer">
-	<h3> Copyright2022 &copy; ROBIN MOTORS(PVT)LTD</h3>
-</div>
-
-<!-- <div id="error">
-
-  <form id="ownerDetailsForm"  method="GET">
-    <label for="name"> Name </label>
-    <input id="name" name="name" type="text">
-  
-    <label for="password"> Password </label>
-    <input id="password" name="password" type="password">
-  
-    <button type="submit"> Submit</button>
-  
-    
-  </form>
-</div>
- -->
 
 
 
