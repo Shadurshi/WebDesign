@@ -38,8 +38,8 @@ h1{
 }
 
 body{
-	/* background-color:black; */
-	background-color: white;
+	background-color:black;
+	/* background-color: white; */
 }
 
 label{
@@ -93,4 +93,9 @@ dis{
 	padding: 5px;
 	margin-top: 5px;
 	margin-right: 5px;
+}
+
+
+.errorMsg{
+	color: white;
 }

@@ -59,17 +59,17 @@
     </div>
     <br><br><br>
     <div class="formContainer">
-      <form id="ownerDetailsForm" method="GET">
+      <form name="ownerDetailsForm" method="GET">
           <fieldset>
               <legend class="titleForm">Owner Details</legend>
-                <label id="nameText" for="name" >Name: </label>
-                <input  class="inputLabel" type="text" id="nameField" name="id10" maxlength="50"><br><br>
-                <label name ="email "for="email" >Email: </label>
-                <input class="inputLabel" type="email" id="emailInput" name="emailInput">
-                <span id="errorEmail"></span><br><br>
+                <label for="name" >Name: </label>
+                <input class="inputLabel" type="text" id="name" name="name" maxlength="50"><br><br>
+                <label name="email" for="email" >Email: </label>
+                <input class="inputLabel" type="email" id="email" name="email">
+                <span class="errorMsg" id="errorEmail"></span><br><br>
                 <label for="phone" >Phone Number: </label>
-                <input class="inputLabel" type="tel" id="phoneInput" name="phoneInput">
-                <span id="errorPhone"></span><br><br>
+                <input class="inputLabel" type="tel" id="phone" name="phone">
+                <span class="errorMsg" id="errorPhone"></span><br><br>
       
             <div class="buttonContainer">
               <button class="resetBtn" onclick="reset()" > Reset </button>
